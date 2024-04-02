@@ -94,7 +94,8 @@ function recon() {
         var attacks = window.document.querySelectorAll('.attack');
         var textContent = window.document.querySelectorAll('.content');
         attacks.forEach((alvo, index) => {
-            if(guns.value === alvo.children[0].innerText) {
+            var  gunsForm = guns.value.toLowerCase()
+            if( gunsForm === alvo.children[0].innerText) {
                 atirar(alvo, index)
                 guns.value = ''
             }
