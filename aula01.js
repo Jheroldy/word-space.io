@@ -76,7 +76,7 @@ function recon() {
 
         setInterval(() => {
             if(municao.offsetLeft == 0) {
-                alvo.style.backgroundImage = "url('../JS/explosao.gif')";
+                alvo.style.backgroundImage = "url('https://jheroldy.github.io/word-space.io/explosao.gif')";
                 setInterval(() => {
                     sleep++
                 }, 1000)
