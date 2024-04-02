@@ -10,7 +10,7 @@ body {
     overflow: hidden;
     position: relative;
     background-color: #000000de;
-    background-image: url('../JS/360_F_264279006_WDXxV3OHjAOoHqH7iiLDrg23p0947g7U.jpg');
+    background-image: url('https://jheroldy.github.io/word-space.io/360_F_264279006_WDXxV3OHjAOoHqH7iiLDrg23p0947g7U.jpg');
     background-position: center;
     animation: moveGalaxy 40s infinite linear;
 }
@@ -23,7 +23,7 @@ body {
     right: calc(50% - 40px);
     height: 205px;
     width: 175px;
-    background-image: url('../JS/transferir2.gif');
+    background-image: url('https://jheroldy.github.io/word-space.io/transferir2.gif');
     background-position: center;
     background-size: contain;
 }
@@ -43,7 +43,7 @@ body {
     height: 100px;
     width: 100px;
     animation: attacker 10s linear forwards;
-    background-image: url('../JS/enemy.gif');
+    background-image: url('https://jheroldy.github.io/word-space.io/enemy.gif');
     background-position: center;
     background-size: cover;
 }
@@ -69,7 +69,7 @@ body {
     height: 40px;
     width: 40px;
     animation: atirar 1s linear forwards;
-    background-image: url('../JS/fire-fireball.gif');
+    background-image: url('https://jheroldy.github.io/word-space.io/fire-fireball.gif');
     background-position: center;
     background-size: contain;
 }
