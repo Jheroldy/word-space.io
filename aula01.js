@@ -1,7 +1,8 @@
 const player = window.document.getElementById('player');
 const screen = window.document.getElementById('screen');
 const guns = window.document.getElementById('guns');
-const gameOver = window.document.getElementById('game_over')
+const gameOver = window.document.getElementById('game_over');
+const tiro = window.document.getElementById('tiro_audio');
 guns.focus()
 
 function recon() {
@@ -69,10 +70,11 @@ function recon() {
         var posY = alvo.offsetTop;
         municao.classList.add('municao');
         alvo.appendChild(municao);
-        municao.style.left = `calc(50vw - ${posX}px)`;
+        municao.style.left = `calc(45vw - ${posX}px)`;
         municao.style.top = `calc((100vh - 150px) - ${posY}px)`
         console.log(`calc(100vh - ${posY}px)`)
         var sleep = 1
+        tiro.play()
 
         setInterval(() => {
             if(municao.offsetLeft == 0) {
